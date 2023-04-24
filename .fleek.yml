@@ -11,7 +11,7 @@ git:
     enabled: false
 name: Fleek Configuration
 packages:
-    - go
+    - go_1_20
 paths:
     - $HOME/bin
     - $HOME/.local/bin
