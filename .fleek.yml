@@ -1,0 +1,26 @@
+aliases:
+    fleeks: cd /home/tink/.local/share/fleek
+    ll: ls -ltrah --color
+bling: default
+ejected: false
+flakedir: .local/share/fleek
+git:
+    autocommit: false
+    autopull: false
+    autopush: false
+    enabled: false
+name: Fleek Configuration
+packages:
+    - go
+paths:
+    - $HOME/bin
+    - $HOME/.local/bin
+programs:
+    - dircolors
+shell: zsh
+systems:
+    - arch: x86_64
+      hostname: nuc-aws
+      os: linux
+      username: tink
+unfree: true
